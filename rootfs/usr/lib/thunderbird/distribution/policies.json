@@ -1,0 +1,12 @@
+{ 
+
+ "manifest_version": 2,
+ "policies": {
+   "ExtensionSettings": {
+     "juraj.masiar@gmail.com_LinkInTab": {
+       "installation_mode": "force_installed",
+       "install_url": "https://addons.thunderbird.net/thunderbird/downloads/latest/link_in_tab/addon-988099-latest.xpi"
+     }
+   }
+ }
+}

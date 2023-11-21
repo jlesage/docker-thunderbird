@@ -1,0 +1,39 @@
+---
+
+#
+# Definitions for Thunderbird docker container.
+#
+# This file is used as data source to generate README.md and unRAID template files
+# from Jinja2 templates.
+#
+
+app:
+  id: 26
+  name: thunderbird
+  friendly_name: Thunderbird
+  gui_type: x11
+  base_os: alpine
+  project:
+    description: |-
+      Thunderbird is a free email application that's easy to set up and customize.
+    url: https://www.thunderbird.net
+  unraid:
+    #support_url: https://forums.unraid.net/topic/XXXXX-support-thunderbird/
+    category: "Tools:"
+  documentation:
+  changelog: []
+
+container:
+  unsupported_volume: /storage
+
+  # Environment variables.
+  environment_variables: []
+
+  # Volumes
+  volumes: []
+
+  # Network ports
+  ports: []
+
+  # Devices
+  devices: []

@@ -21,7 +21,11 @@ app:
     #support_url: https://forums.unraid.net/topic/XXXXX-support-thunderbird/
     category: "Tools:"
   documentation:
-  changelog: []
+  changelog:
+    - version: 23.11.1
+      date: 2023-11-21
+      changes:
+        - 'Initial release.'
 
 container:
   unsupported_volume: /storage

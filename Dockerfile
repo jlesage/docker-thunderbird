@@ -11,7 +11,7 @@ FROM jlesage/baseimage-gui:alpine-3.20-v4.6.4
 ARG DOCKER_IMAGE_VERSION=unknown
 
 # Define software versions.
-ARG THUNDERBIRD_VERSION=128.0.1-r0
+ARG THUNDERBIRD_VERSION=128.2.2-r0
 
 # Define software download URLs.
 

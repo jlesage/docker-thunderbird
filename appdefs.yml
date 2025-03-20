@@ -22,6 +22,10 @@ app:
     category: "Tools:"
   documentation:
   changelog:
+    - version: 25.03.1
+      date: 2025-03-19
+      changes:
+        - 'Updated Thunderbird to version 128.8.0-r0.'
     - version: 25.02.1
       date: 2025-02-09
       changes:

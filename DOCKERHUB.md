@@ -9,8 +9,8 @@
 
 This is a Docker container for [Thunderbird](https://www.thunderbird.net).
 
-The GUI of the application is accessed through a modern web browser (no
-installation or configuration needed on the client side) or via any VNC client.
+The graphical user interface (GUI) of the application can be accessed through a
+modern web browser, requiring no installation or configuration on the client
 
 ---
 
@@ -23,8 +23,8 @@ Thunderbird is a free email application that's easy to set up and customize.
 ## Quick Start
 
 **NOTE**:
-    The Docker command provided in this quick start is given as an example
-    and parameters should be adjusted to your need.
+    The Docker command provided in this quick start is an example, and parameters
+    should be adjusted to suit your needs.
 
 Launch the Thunderbird docker container with the following command:
 ```shell
@@ -37,9 +37,9 @@ docker run -d \
 
 Where:
 
-  - `/docker/appdata/thunderbird`: This is where the application stores its configuration, states, log and any files needing persistency.
+  - `/docker/appdata/thunderbird`: Stores the application's configuration, state, logs, and any files requiring persistency.
 
-Browse to `http://your-host-ip:5800` to access the Thunderbird GUI.
+Access the Thunderbird GUI by browsing to `http://your-host-ip:5800`.
 
 ## Documentation
 
@@ -47,9 +47,7 @@ Full documentation is available at https://github.com/jlesage/docker-thunderbird
 
 ## Support or Contact
 
-Having troubles with the container or have questions?  Please
-[create a new issue].
+Having troubles with the container or have questions? Please
+[create a new issue](https://github.com/jlesage/docker-thunderbird/issues).
 
-For other great Dockerized applications, see https://jlesage.github.io/docker-apps.
-
-[create a new issue]: https://github.com/jlesage/docker-thunderbird/issues
+For other Dockerized applications, visit https://jlesage.github.io/docker-apps.

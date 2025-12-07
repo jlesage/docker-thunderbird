@@ -5,13 +5,13 @@
 #
 
 # Pull base image.
-FROM jlesage/baseimage-gui:alpine-3.22-v4.10.3
+FROM jlesage/baseimage-gui:alpine-3.23-v4.10.3
 
 # Docker image version is provided via build arg.
 ARG DOCKER_IMAGE_VERSION=unknown
 
 # Define software versions.
-ARG THUNDERBIRD_VERSION=140.0.1-r0
+ARG THUNDERBIRD_VERSION=145.0-r0
 
 # Define software download URLs.
 

@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "Thunderbird",
+  "short_name": "Thunderbird",
+  "description": "Thunderbird desktop running on a remote server",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "background_color": "#101820",
+  "theme_color": "#0a84ff",
+  "icons": [
+    { "src": "android-chrome-192x192.png", "type": "image/png", "sizes": "192x192", "purpose": "any" },
+    { "src": "android-chrome-512x512.png", "type": "image/png", "sizes": "512x512", "purpose": "any" },
+    { "src": "android-chrome-512x512-mask.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" }
+  ]
+}

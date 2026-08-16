@@ -38,6 +38,13 @@ RUN \
 # Add files.
 COPY rootfs/ /
 
+# Register the progressive web app service worker.  The base image already
+# inserts its generated manifest and icons into this page.
+RUN \
+    sed -i \
+        '/<\/head>/i\    <meta name="theme-color" content="#0a84ff">\n    <script defer src="pwa-register.js"><\/script>' \
+        /opt/noVNC/index.html
+
 # Set internal environment variables.
 RUN \
     set-cont-env APP_NAME "Thunderbird" && \
